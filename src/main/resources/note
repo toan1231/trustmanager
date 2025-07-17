@@ -1,0 +1,45 @@
+
+      //side bar dragDrop up
+        screen.hover(sideBar);
+        screen.dragDrop(arrowUp);
+
+        //side bar dragdrop down
+        screen.hover(sideBar);
+        screen.dragDrop(arrowDown);
+
+
+         //Slowly going down
+          screen.hover(sideBar);
+         for (int i=0;i<18;i++){
+         screen.click(arrowDown);
+           }
+
+
+         //slowly going up
+          screen.hover(sideBar);
+          for (int i=0;i<18;i++){
+           screen.click(arrowUp);
+             }
+
+        //horizontal drapDrop left
+        screen.hover(horizontalBar);
+        screen.dragDrop(arrowLeft);
+
+        // horizontal drapDrop right
+        screen.hover(horizontalBar);
+        screen.dragDrop(arrowRight);
+
+
+
+         // slowly going right
+           screen.hover(horizontalBar);
+                for(int i=0;i<18;i++){
+                     screen.click(arrowRight);
+                 }
+
+         //slowly going left
+            screen.hover(horizontalBar);
+
+                          for(int i=0;i<18;i++){
+                              screen.click(arrowLeft);
+                          }
